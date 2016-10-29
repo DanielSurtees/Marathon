@@ -22,7 +22,7 @@ public class Marathon {
     for (int i = 0; i < times.length; i++) {
 
       if ((times[i] < times[SecondFastestRunnerIndex])
-        && (times[i] > times [FastestRunnerIndex])) {
+        && (i != FastestRunnerIndex) {
           SecondFastestRunnerIndex = i;
       }
 
